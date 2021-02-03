@@ -8,17 +8,36 @@ body{
 }
 
 .main-box{
+  margin-top: 10vh;
   border-radius: 5px;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 75%;
+  min-height: 600px;
   background-color: white;
-  text-align: center;
+  justify-content: space-between;
+}
+
+.box{
+  display: flex;
+}
+.image{
+  height: 100vh;
+  float: left;
+  min-width: 50%;
+  background-image: url("images/illustration-woman-online-desktop.svg"),url("images/illustration-box-desktop.svg");
+
+}
+
+.question{
+  height: 100vh;
+  float: left;
+min-width: 50%;
 }
 
 .dropdown{
   position: relative;
-  display: inline-block;
+  display: block;
 }
 
 .dropdown-content{
